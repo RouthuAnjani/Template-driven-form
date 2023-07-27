@@ -1,0 +1,24 @@
+.error {
+    border: 1px solid red;
+}
+form{
+    margin: auto;
+    width:70%;
+    margin-top: 100px;
+    border: 2px solid rgb(175, 158, 158);
+    padding: 20px;
+    background-color: rgb(133, 244, 175);
+}
+img{
+  width: 10%;
+  height: 10%;
+  margin-left: 43%;
+}
+
+.ng-valid[required], .ng-valid.required  {
+    border-left: 5px solid #42A948;
+  }
+  
+  .ng-invalid:not(form)  {
+    border-left: 5px solid #a94442;
+  }
